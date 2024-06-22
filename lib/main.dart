@@ -1,22 +1,16 @@
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 
 void main() {
-  runApp(myapp());
+  runApp(MyApp());
 }
 
-class myapp extends StatelessWidget {
-  const myapp({super.key});
+class MyApp extends StatelessWidget {
+  
 
-  @override
-  Widget build(BuildContext context) {
+  @override Widget build(BuildContext context) {
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("ffffhfhwfh34dwfuhfwhhfwqj"),
-          ),
-        ),
-      )
+      home: HomePage(),
     );
   }
 }
