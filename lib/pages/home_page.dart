@@ -6,15 +6,17 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
         title: Text("Monkey D. Luffy"),
       ),
         body: Center(
           child: Container(
-            child: Text("ffffhfhwfh34dwfuhfwhhfwqj"),
+            child: Text("Monkey D. Luffy"),
           ),
         ),
         drawer: Drawer(),
       );
   }
 }
+
